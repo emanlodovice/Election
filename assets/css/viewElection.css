@@ -1,0 +1,329 @@
+body {
+	background-color: white;
+  	font-family: Arial;
+  	color: #999999;
+}
+
+@font-face {
+  font-family: Dodge;
+  src: url('DODGE.ttf');
+}
+
+.link {
+  text-decoration: none;
+  color:black;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+ul {
+  background-color: black;
+  width: 96%;
+  height: 3%;
+  margin-top: 10px;
+  border-bottom: 4px solid #666666;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Impact;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline;
+}
+
+li a:link, a:visited {
+  text-decoration: none;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+li a:hover, a:active {
+  color: white;
+  background-color: #666666;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+#container{
+	width:1000px;
+	margin: 0 auto;
+}
+
+
+#header{
+	width: 100%;
+  	height: 20px;
+  	background-color: #f6f6f6;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+}
+
+#greeting{
+	position: absolute;
+  	width: 500px;
+  	font-size: 14px;
+  	padding-left: 10px;
+}
+
+
+#logoutspace {
+  position: absolute;
+  width: 80px;
+  margin-left: 920px;
+}
+
+#logout {
+  background-color: #f6f6f6;
+  border: none;
+}
+
+#banner {
+  width: 100%;
+  height: 80px;
+}
+
+#sitename {
+  position: absolute;
+  font-family: "Dodge";
+  font-size: 60px;
+  width: 400px;
+  color: black;
+}
+
+
+#title {
+  width:300px;
+  height:25px;
+}
+
+
+#home{
+	line-height: 21px;
+	background-color: black;
+	color:white;
+	font-size: 14;
+	border: none;
+	font-family: Trebuchet MS;
+}
+
+
+#iamVoting{
+	line-height: 21px;
+	background-color: black;
+	color:white;
+	font-size: 14;
+	border: none;
+	font-family: Trebuchet MS;
+}
+
+#first {
+  background-color: #666666;
+  color: white;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+#hosting{
+	line-height: 21px;
+	background-color: black;
+	color:white;
+	font-size: 14;
+	border: none;
+	font-family: Trebuchet MS;
+}
+
+
+#content {
+   margin-top: -10px;
+  	min-height: 500px;
+  	background-color: #f6f6f6;
+  	border: 2px solid #cccccc;
+}
+
+#voter_container {
+	width:100%;
+	float:left;
+}
+
+h1 {
+	color: #666666;
+}
+
+p {
+	color:black;
+	text-align:center;
+	font-family:Trebuchet MS;
+	font-size:14px;
+}
+
+h3 {
+	font-family: Trebuchet MS;
+}
+
+.positions {
+	width: 100%;
+	margin:0 auto;
+	float:left;
+	padding: 10px;
+}
+
+.candidate {
+	float:left;
+	width:70%;
+	min-height:40px;
+	margin-bottom: 0px;
+	margin-top:0px;
+}
+
+
+.names {
+	float:left;
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width:35%;
+	height:100%;
+	margin-right: 10px;
+	overflow: auto;
+}
+
+.graph {
+	width:60%;
+	height:100%;
+	float:left;	
+}
+
+.bar {
+	margin-top:-20px;
+	width:0%;
+	height:100%;	
+	padding-left:5px;
+	text-align: center;
+	transition:width 1s;
+	-webkit-transition:width 1s;
+	-moz-transition:width 1s;
+}
+
+.winner {
+	width:20%;
+	border:1px solid black;
+	float:right;
+	margin-right:20px;
+	text-align: center;
+	padding: 10px;
+	word-wrap:break-word;
+}
+
+.voter {
+	min-height: 40px;
+	width: 100%;
+	float:left;
+}
+
+.clear {
+	clear:both;
+}
+
+.voter_name {
+	float:left;
+	width:50%;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.action {
+	width:40%;
+	float:left;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #878587;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #878587;
+  box-shadow:inset 0px 1px 0px 0px #878587;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a6a3a6), color-stop(1, #807d80) );
+  background:-moz-linear-gradient( center top, #a6a3a6 5%, #807d80 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6a3a6', endColorstr='#807d80');
+  background-color:#a6a3a6;
+  border:1px solid #cccccc;
+  display:inline-block;
+  color:#faf5fa;
+  font-family:arial;
+  font-size:15px;
+  font-weight:normal;
+  padding:2px 14px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #636063;
+}
+
+.button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #807d80), color-stop(1, #a6a3a6) );
+  background:-moz-linear-gradient( center top, #807d80 5%, #a6a3a6 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#807d80', endColorstr='#a6a3a6');
+  background-color:#807d80;
+}
+
+.button:active {
+  position:relative;
+  top:1px;
+}
+
+#voter_container {
+	width:100%;
+	float:left;
+	text-align: center;
+	margin-top:40px;
+}
+
+#verify_delete_container {
+	visibility:hidden;
+	position:fixed;
+	left:0px;
+	top:0px;
+	bottom: 0px;
+	right: 0px;
+	z-index:1000;
+	background:rgba(100,100,100,.5);
+}
+
+#verify_delete {
+	background:white;
+	margin-top:10%;
+	margin-left:35%;
+	border:2px solid;
+	width:300px;
+	border-color:gray;
+	border-radius:15px;
+}
+
+#footer {
+  font-family: Trebuchet MS;
+  font-size: 11px;
+  text-align: right;
+}

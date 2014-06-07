@@ -1,0 +1,61 @@
+#container{
+	width:1000px;
+	margin: 0 auto;
+}
+
+#signUpForm {
+	background:white;
+	width:50%;
+	padding-top:30px;
+	margin-top:15%;
+	margin-left:25%;
+	border:2px solid;
+	border-color:gray;
+	border-radius:15px;
+}
+
+#passButton{
+	width: 40%;
+	padding:10px;
+	font-size:20px;
+	font-family:Century Gothic;
+	margin-top:5%;
+	margin-left:30%;
+	border:1px solid;
+	border-color:gray;
+	border-radius:5px;
+	background:  -webkit-linear-gradient(top, #E7EB9D -50%, #B8C300 40%);
+	background:  -moz-linear-gradient(top, #E7EB9D -50%, #B8C300 40%);
+}
+
+#passButton:hover{
+	font-size:22px;
+}
+
+#loginInput{
+	width:60%;
+	padding:10px;
+	margin-left:10px;
+	margin-top:0%;
+	font-size:20px;
+	border-radius:5px;
+	border:2px solid #888888;
+	display:inline-block;
+}
+
+#loginInput:hover{
+	border-color:#CFD748;
+}
+
+h8{
+	font-family:Century Gothic;
+	font-size:23px;
+	color:red;
+	margin-left:25px;
+}
+
+h3{
+	margin-left:15%;
+	display:inline-block;
+	font-family:Century Gothic;
+}
